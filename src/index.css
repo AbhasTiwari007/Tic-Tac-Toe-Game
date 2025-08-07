@@ -22,7 +22,7 @@ button:hover{
     box-shadow: 7px 7px 7px rgb(37, 34, 34);
 }
 
-.status {
+.status,.scoreCard {
     margin-bottom: 20px;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,4 +30,9 @@ button:hover{
 }
 .square.O{
     color:#1F2BE0;
+}
+.reset-button{
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 10px;
 }
